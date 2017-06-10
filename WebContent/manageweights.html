@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Manage Weights</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<link rel="stylesheet" href="css/css.css" />
+	<script src="js/javascript.js"></script>
+	<script type="text/javascript">
+	$('.dropdown').hover(
+			  function () {
+			    $(".myDropdown").show();
+			  }, 
+			  function () {
+			    $(".myDropdown").hide();
+			  }
+			);</script>
+</head>
+<body>
+<div id="header"></div>
+<p id="test123">HELLO!!!</p>
+<h2>Manage Weights</h2>
+<form>
+<label>Weight: </label><input type="string" name="weight"><br>
+<label>Count: </label><input type="string" name="count"><br>
+<label>Category: </label><select name="category"><br>
+<option>cardio</option>
+<option>strength</option>
+</select>
+<br>
+</form>
+<br><br>
+<div class="dropdown">
+	<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+	<div id="myDropdown" class="dropdown-content">
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+	</div>
+</div>
+</body>
+</html>
